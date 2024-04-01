@@ -1,9 +1,9 @@
 #include <stdio.h>
 int main()
 {
-    float r, area;
-    printf("Value of radius: ");
-    scanf("%f", &r);
-    area = 3.14 * r * r;
-    printf("area= %f\n", area);
+    int r, circumference;
+    printf("Value of circumference: ");
+    scanf("%d", &r);
+    circumference = 2 * 3.14 * r;
+    printf("circumference= %d\n", circumference);
 }
